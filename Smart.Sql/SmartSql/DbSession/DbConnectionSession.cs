@@ -42,6 +42,7 @@ namespace SmartSql.DbSession
             CreateConnection();
         }
 
+// 
         public void BeginTransaction()
         {
             BeginTransaction(IsolationLevel.ReadCommitted);
